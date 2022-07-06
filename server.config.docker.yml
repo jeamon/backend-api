@@ -1,0 +1,21 @@
+is_production: true
+database: postgres
+server:
+  host: "0.0.0.0"
+  port: "8080"
+  certs_file: "./assets/certs/server.crt"
+  key_file: "./assets/certs/server.key"
+
+db_postgres:
+  host: "postgres"
+  port: "5432"
+  user: "api"
+  password: "secret"
+  database_name: "demo"
+
+db_mongo:
+  host: "mongo"
+  port: "27017"
+  user: "api"
+  password: "secret"
+  database_name: "demo"
