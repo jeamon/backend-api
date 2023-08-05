@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jeamon/sample-rest-api/cmd"
+	"github.com/jeamon/backend-api/cmd"
 )
 
 var (

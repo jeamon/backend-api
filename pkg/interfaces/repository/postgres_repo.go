@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/georgysavva/scany/pgxscan"
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/postgres"
+	"github.com/jeamon/backend-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/infrastructure/postgres"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

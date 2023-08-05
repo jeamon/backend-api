@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/jeamon/sample-rest-api/pkg/application"
+	"github.com/jeamon/backend-api/pkg/application"
 	"go.uber.org/zap"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gofrs/uuid"
-	"github.com/jeamon/sample-rest-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/domain"
 	"go.uber.org/zap"
 )
 

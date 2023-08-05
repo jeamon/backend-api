@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/mockdb"
+	"github.com/jeamon/backend-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/infrastructure/mockdb"
 	"go.uber.org/zap"
 )
 

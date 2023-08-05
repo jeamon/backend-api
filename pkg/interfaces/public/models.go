@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/jeamon/sample-rest-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/domain"
 )
 
 type errResponse struct {

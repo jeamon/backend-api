@@ -14,14 +14,14 @@ import (
 	ginzap "github.com/gin-contrib/zap"
 	"github.com/gin-gonic/gin"
 	health "github.com/hellofresh/health-go/v4"
-	"github.com/jeamon/sample-rest-api/pkg/application"
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/config"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/mockdb"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/mongo"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/postgres"
-	apisweb "github.com/jeamon/sample-rest-api/pkg/interfaces/public"
-	"github.com/jeamon/sample-rest-api/pkg/interfaces/repository"
+	"github.com/jeamon/backend-api/pkg/application"
+	"github.com/jeamon/backend-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/infrastructure/config"
+	"github.com/jeamon/backend-api/pkg/infrastructure/mockdb"
+	"github.com/jeamon/backend-api/pkg/infrastructure/mongo"
+	"github.com/jeamon/backend-api/pkg/infrastructure/postgres"
+	apisweb "github.com/jeamon/backend-api/pkg/interfaces/public"
+	"github.com/jeamon/backend-api/pkg/interfaces/repository"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
@@ -57,7 +57,7 @@ func Execute(gitCommit, gitTag string) {
 	}
 }
 
-//nolint
+// nolint
 func run(configData *config.Config, gitCommit, gitTag string) error {
 	var logger *zap.Logger
 	var err error

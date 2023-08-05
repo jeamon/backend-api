@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/gofrs/uuid"
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	mongodb "github.com/jeamon/sample-rest-api/pkg/infrastructure/mongo"
+	"github.com/jeamon/backend-api/pkg/domain"
+	mongodb "github.com/jeamon/backend-api/pkg/infrastructure/mongo"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"gopkg.in/mgo.v2/bson"

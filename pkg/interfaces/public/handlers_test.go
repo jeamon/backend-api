@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/imroc/req"
-	"github.com/jeamon/sample-rest-api/pkg/application"
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/config"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/mockdb"
-	"github.com/jeamon/sample-rest-api/pkg/interfaces/repository"
+	"github.com/jeamon/backend-api/pkg/application"
+	"github.com/jeamon/backend-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/infrastructure/config"
+	"github.com/jeamon/backend-api/pkg/infrastructure/mockdb"
+	"github.com/jeamon/backend-api/pkg/interfaces/repository"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 )

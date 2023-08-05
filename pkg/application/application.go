@@ -3,8 +3,8 @@ package application
 import (
 	"context"
 
-	"github.com/jeamon/sample-rest-api/pkg/domain"
-	"github.com/jeamon/sample-rest-api/pkg/infrastructure/config"
+	"github.com/jeamon/backend-api/pkg/domain"
+	"github.com/jeamon/backend-api/pkg/infrastructure/config"
 	"go.uber.org/zap"
 )
 
