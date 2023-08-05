@@ -1,4 +1,4 @@
-# sample-rest-api
+# backend-api
 
 This is a demonstration of a go-based backend service which exposes RESTFUL APIs allowing to perform CRUD operations on data representing repositories scanning informations collected by a dedicated client tool. It basically shows how to design and implement a clean RestFul API backend with Go while using its built-in functionnality like interfaces for more flexibility & scalability. The storage layer is designed to support SQL & NoSQL datbases. Implementation has been done for PostgreSQL and MongoDB. Based on the code design, you can easily define or swap the wanted database (PostgreSQL or MongoDB) from the configuration file. A fake mocked database interface called mockdb was also added for live unit testing of the CRUD endpoints. The endpoint listens only on HTTPS and a bash script is available to generate self-signed tls/ssl certificates with openssl. The whole build process is automate when using docker-compose.
 
@@ -13,8 +13,8 @@ Otherwise, you can spin up the required database containers with the same docker
 	* Clone the repository
 
 		```shell
-		$ git clone https://github.com/jeamon/sample-rest-api.git
-		$ cd sample-rest-api
+		$ git clone https://github.com/jeamon/backend-api.git
+		$ cd backend-api
 		```
 
 	* Build and Run with docker :
@@ -41,8 +41,8 @@ Otherwise, you can spin up the required database containers with the same docker
 	* Clone the repository
 
 		```shell
-		$ git clone https://github.com/jeamon/sample-rest-api.git
-		$ cd sample-rest-api
+		$ git clone https://github.com/jeamon/backend-api.git
+		$ cd backend-api
 		```
 
 	* Build and Run with docker :
@@ -62,8 +62,8 @@ Otherwise, you can spin up the required database containers with the same docker
 	* Clone the repository
 
 		```shell
-		$ git clone https://github.com/jeamon/sample-rest-api.git
-		$ cd sample-rest-api
+		$ git clone https://github.com/jeamon/backend-api.git
+		$ cd backend-api
 		```
 
 	* Start all databases or the one set into the configs file :
@@ -241,7 +241,7 @@ The request body should be sent as JSON data. The fields **<started_at>** **<com
     "company_id": "company-id",
     "username": "jeamon",
     "client_id": "vx.y.z",
-    "repository_url": "https://github.com/jeamon/sample-rest-api",
+    "repository_url": "https://github.com/jeamon/backend-api",
     "commit_id": "d7b8ff1412ebfcde26f9ddfdf9608d1525647958",
     "tag_id": "v1.0.0",
     "results": ["found something x", "found something y", "found something z"],

@@ -81,7 +81,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"company_id\": \"3\",\r\n    \"username\": \"jeamon\",\r\n    \"client_id\": \"v1.0.0\",\r\n    \"repository_url\": \"https://github.com/jeamon/sample-rest-api\",\r\n    \"commit_id\": \"d7b8ff1412ebfcde26f9ddfdf9608d1525647958\",\r\n    \"tag_id\": \"v1.0.0\",\r\n    \"results\": [\"found something\", \"found something\", \"found something\", \"found something\"],\r\n    \"started_at\":1655903720,\r\n    \"completed_at\": 1655903723,\r\n    \"sent_at\": 1655903725,\r\n    \"error\": \"got an x exception during execution\",\r\n    \"metadata\": {\r\n        \"os\": \"linux\",\r\n        \"languages\": [\"go\", \"bash\", \"html\"],\r\n        \"arch\": \"amd64\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"company_id\": \"3\",\r\n    \"username\": \"jeamon\",\r\n    \"client_id\": \"v1.0.0\",\r\n    \"repository_url\": \"https://github.com/jeamon/backend-api\",\r\n    \"commit_id\": \"d7b8ff1412ebfcde26f9ddfdf9608d1525647958\",\r\n    \"tag_id\": \"v1.0.0\",\r\n    \"results\": [\"found something\", \"found something\", \"found something\", \"found something\"],\r\n    \"started_at\":1655903720,\r\n    \"completed_at\": 1655903723,\r\n    \"sent_at\": 1655903725,\r\n    \"error\": \"got an x exception during execution\",\r\n    \"metadata\": {\r\n        \"os\": \"linux\",\r\n        \"languages\": [\"go\", \"bash\", \"html\"],\r\n        \"arch\": \"amd64\"\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -139,7 +139,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"5c9828c6-f7f4-11ec-aa0a-d3f9ac7b9396\",\r\n    \"company_id\": \"2\",\r\n    \"username\": \"jeamon-update\",\r\n    \"client_id\": \"v1.0.0\",\r\n    \"repository_url\": \"https://github.com/jeamon/sample-rest-api\",\r\n    \"commit_id\": \"d7b8ff1412ebfcde26f9ddfdf9608d1525647958\",\r\n    \"tag_id\": \"v1.0.0\",\r\n    \"results\": [\r\n        \"found something\",\r\n        \"found something\",\r\n        \"found something\",\r\n        \"found something\"\r\n    ],\r\n    \"started_at\": 1655903720,\r\n    \"completed_at\": 1655903723,\r\n    \"sent_at\": 1655903725,\r\n    \"error\": \"\",\r\n    \"metadata\": {\r\n        \"arch\": \"amd64\",\r\n        \"languages\": [\r\n            \"go\",\r\n            \"bash\",\r\n            \"html\"\r\n        ],\r\n        \"os\": \"linux\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"id\": \"5c9828c6-f7f4-11ec-aa0a-d3f9ac7b9396\",\r\n    \"company_id\": \"2\",\r\n    \"username\": \"jeamon-update\",\r\n    \"client_id\": \"v1.0.0\",\r\n    \"repository_url\": \"https://github.com/jeamon/backend-api\",\r\n    \"commit_id\": \"d7b8ff1412ebfcde26f9ddfdf9608d1525647958\",\r\n    \"tag_id\": \"v1.0.0\",\r\n    \"results\": [\r\n        \"found something\",\r\n        \"found something\",\r\n        \"found something\",\r\n        \"found something\"\r\n    ],\r\n    \"started_at\": 1655903720,\r\n    \"completed_at\": 1655903723,\r\n    \"sent_at\": 1655903725,\r\n    \"error\": \"\",\r\n    \"metadata\": {\r\n        \"arch\": \"amd64\",\r\n        \"languages\": [\r\n            \"go\",\r\n            \"bash\",\r\n            \"html\"\r\n        ],\r\n        \"os\": \"linux\"\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
